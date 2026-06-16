@@ -1,0 +1,21 @@
+# Python bytecode / cache files (not needed in git)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDEs and text editors
+.vscode/
+.idea/
+*.swp
+*~
+
+# Temporary files and test outputs (keeps development runs out of the repo)
+test_*/
+*output.csv
+*output.json
+*.tmp
